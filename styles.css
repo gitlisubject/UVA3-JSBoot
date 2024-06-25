@@ -1,0 +1,41 @@
+.custom-input {
+    border-color: #beacce;
+    background-color: #f8f9fa;
+    border-radius: 25px;
+}
+.custom-input:focus {
+    border-color: #b079ff;
+    box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.25);
+}
+.custom-navbar {
+    background-color: #8d60fa;
+}
+.custom-navbar .nav-link {
+    color: white;
+}
+.custom-navbar .nav-link:hover {
+    color: #b079ff;
+}
+.custom-form-container {
+    background-color: #a4a9ec;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #8d60fa;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
